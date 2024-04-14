@@ -9,5 +9,10 @@
 
 功能二
 歌词加载
-
 pull example
+git pull origin master --rebase
+相当于
+master:
+执行 git pull origin master
+然后你在 feature-1
+执行 git rebase master
